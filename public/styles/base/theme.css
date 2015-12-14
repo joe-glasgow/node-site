@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+.locale-delegated, .not-available {
+  display: none; }
+
+[data-location="liverpool"] .locale-delegated.liverpool {
+  display: block; }
+
+[data-location="london"] .locale-delegated.london {
+  display: block; }
+
+[data-location="undetermined"] .not-available {
+  display: block; }
