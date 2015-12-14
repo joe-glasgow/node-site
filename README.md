@@ -20,6 +20,10 @@ Customer IDs are provided in Query Strings, so customers can be identified
 
 # BDD / Functional tests
 
+Test location:
+
+    bdd-tests/
+
 These tests are ran using Selenium and WebdriverIO. This requires the hosting machine to have JDK 8 installed.
 
 The gulp following gulp task will install selenium and spin up tests.
@@ -27,6 +31,10 @@ The gulp following gulp task will install selenium and spin up tests.
     $ npm browser-test
 
 # TDD / Jest
+
+Test location:
+
+    tdd-tests/
 
 TDD tests are provided by Jest and can be ran using the following command:
 
