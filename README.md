@@ -1,6 +1,6 @@
 # build npm install
 
-# npm start
+# npm start - ?customerID=1,2,3 etc
 
 # JDK 8 for Selenium
 
