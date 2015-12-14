@@ -24,7 +24,7 @@ These tests are ran using Selenium and WebdriverIO. This requires the hosting ma
 
 The gulp following gulp task will install selenium and spin up tests.
 
-    $ npm browser-tests
+    $ npm browser-test
 
 # TDD / Jest
 
