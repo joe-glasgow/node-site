@@ -4,9 +4,9 @@ To build this project please use node version >=5. Then install dependencies:
 
     $ npm install
 
-# Star the site
+# Start the site
 
-To start the site please return
+To start the site please run
 
     $ npm start
 
@@ -24,9 +24,9 @@ Test location:
 
     bdd-tests/
 
-These tests are ran using Selenium and WebdriverIO. This requires the hosting machine to have JDK 8 installed.
+These tests are run using Selenium and WebdriverIO. This requires the hosting machine to have JDK 8 installed.
 
-The gulp following gulp task will install selenium and spin up tests.
+The following gulp task will install selenium and spin up tests.
 
     $ npm browser-test
 
@@ -36,11 +36,11 @@ Test location:
 
     tdd-tests/
 
-TDD tests are provided by Jest and can be ran using the following command:
+TDD tests are provided by Jest and can be run using the following command:
 
     $ npm test
 
-Jest is written in ES2015 and will need to following packages installed to compliment the .babrc file
+Jest is written in ES2015 and will need to following packages installed to compliment the .babelrc file
 
     npm install babel-preset-stage-0
     npm install babel-preset-es2015
@@ -57,6 +57,6 @@ and run:
 
 to grab required dependencies.
 
-The following command will compile the Sass:
+The following command will compile the Sass from the main directory:
 
     $ gulp sass
