@@ -1,9 +1,24 @@
-// create a basket
+// # SKY TV - [Module] : Basket
+/*
+ *
+ * #### @class Basket
+ * #### @constructor none
+ */
 var Basket = function () {
   return {
     // store current selected items
     items : [],
-    // add an item to the basket
+    /*
+     * Add to basket method:
+     * adds items to basket
+     *
+     * @method addToBasket
+     *
+     * @param {String} item must be an String
+     *
+     *  String representation of item to add to basket
+     *
+     */
     addToBasket : function (item) {
       // if array does not contain item
       if (this.basketContainsItem(item) === false) {
@@ -13,9 +28,18 @@ var Basket = function () {
         this.saveBasket();
       }
     },
-    // remove from basket
+    /*
+     * Remove from basket method:
+     * removes items from basket
+     *
+     * @method addToBasket
+     *
+     * @param {String} item must be an String
+     *
+     *  String representation of item to remove from basket
+     *
+     */
     removeFromBasket : function (item) {
-      console.log(item)
       // remove from array
       this.items = this.items.filter(function (currentItem) {
         // if items in the array, remove it and return
@@ -25,7 +49,13 @@ var Basket = function () {
       // save to basket
       this.saveBasket();
     },
-    // save basket for persistence
+    /*
+     * Save basket method:
+     * Saves items to basket
+     *
+     * @method saveBasket
+     *
+     */
     saveBasket : function () {
       // grab basket element
       var basketEl = document.querySelectorAll('.selected-products')[0];
@@ -47,7 +77,17 @@ var Basket = function () {
         }
       }
     },
-    // utility for checking basket contains
+    /*
+     * Basket contains items:
+     * checks if basket contains a matching item
+     *
+     * @method basketContainsItem
+     *
+     * @param {String} item must be an String
+     *
+     *  String representation of item to search in basket
+     *
+     */
     basketContainsItem : function (item) {
       // if items doesn't contain item
       if(this.items.indexOf(item) === -1) {

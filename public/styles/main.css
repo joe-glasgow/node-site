@@ -539,47 +539,16 @@ html {
   float: left;
   display: inline-block; }
 
-.main-navigation > li {
-  display: inline-block;
-  float: left;
-  padding: 0 3em 0 0;
-  position: relative; }
-  .main-navigation > li a {
-    font-size: 1.4em; }
-  .main-navigation > li:after {
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #f00;
-    position: absolute;
-    right: 0; }
-  .main-navigation > li:last-of-type {
-    padding: 0;
-    border: none; }
-
-.menu--level1 {
-  position: relative; }
-
-.menu--level2 {
-  position: absolute;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
-  height: 0; }
-
-.menu--level1 li:hover .menu--level2 {
-  visibility: visible;
-  opacity: 1;
-  height: auto;
-  padding: 5px;
-  border-radius: 10px;
-  -webkit-box-shadow: 10px 10px 12px -8px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 12px -8px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 12px -8px rgba(0, 0, 0, 0.75);
-  list-style-type: none; }
-  .menu--level1 li:hover .menu--level2 li {
+ul {
+  margin: 0;
+  padding: 0 0 2em; }
+  ul li {
+    list-style-type: none;
     padding: 5px 0; }
+
+input[type=checkbox] {
+  margin: 0 5px 0 0;
+  padding: 3px; }
 
 /*------------------------------------*    #WIDTHS-RESPONSIVE
 \*------------------------------------*/
@@ -756,3 +725,11 @@ a {
 
 [data-location="undetermined"] .not-available {
   display: block; }
+
+.h1 {
+  font-size: 1.6em; }
+
+.h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0; }

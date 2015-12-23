@@ -1091,3 +1091,1088 @@ Driver info: driver.version: unknown
 00:13:01.836 INFO - Executing: [delete session: 874c815b-8525-4700-ac90-6a75811267c9])
 00:13:01.930 INFO - Done: [delete session: 5c6f79ca-e2c0-4699-a661-dd59bd903079]
 00:13:02.406 INFO - Done: [delete session: 874c815b-8525-4700-ac90-6a75811267c9]
+Exception in thread "main" java.lang.UnsupportedClassVersionError: org/openqa/grid/selenium/GridLauncher : Unsupported major.minor version 51.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClassCond(ClassLoader.java:637)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:621)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:141)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:283)
+	at java.net.URLClassLoader.access$000(URLClassLoader.java:58)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+17:20:31.525 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:20:31.793 INFO - Java: Oracle Corporation 25.65-b01
+17:20:31.793 INFO - OS: Mac OS X 10.10.5 x86_64
+17:20:31.869 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:20:32.019 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:20:32.019 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:20:32.020 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:20:32.020 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:20:32.696 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:20:32.696 INFO - Selenium Server is up and running
+17:20:37.265 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@6f5f90e, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:20:37.265 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@5b0ffea7, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:20:37.332 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@5b0ffea7, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:20:37.332 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@6f5f90e, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 34209
+Only local connections are allowed.
+17:20:47.415 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@6f5f90e, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:20:50.431 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@5b0ffea7, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:20:51.443 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:20:51.443 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:20:51.597 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:20:51.819 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:20:52.958 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:20:52.958 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:20:53.097 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:20:54.172 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:20:57.195 INFO - Executing: [find element: By.cssSelector: input[type='checkbox']:first])
+17:20:57.195 INFO - Executing: [find element: By.cssSelector: input[type='checkbox']:first])
+17:21:05.692 INFO - Executing: [delete session: ed9d60df-ee9b-470d-901d-4f75f6ec9824])
+17:21:05.692 INFO - Executing: [delete session: 26e7ffab-b9fd-4d5c-9d4e-bfbeb2faf423])
+17:21:07.089 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/.org.chromium.Chromium.hGnFnN}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d656ce64ef78e67ed684b2e48475cee8
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17:21:07.102 WARN - Exception: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/.org.chromium.Chromium.hGnFnN}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d656ce64ef78e67ed684b2e48475cee8
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+17:21:07.125 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+Command duration or timeout: 205 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 9eaa97d0-8b04-8948-91d3-7725d1fc6b93
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.InvalidSelectorException: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous1541865856225908757webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10633)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous1541865856225908757webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10664)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous1541865856225908757webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous1541865856225908757webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous1541865856225908757webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous1541865856225908757webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+17:21:07.126 WARN - Exception: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+17:21:07.626 INFO - Done: [delete session: ed9d60df-ee9b-470d-901d-4f75f6ec9824]
+17:22:06.426 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:22:06.459 INFO - Java: Oracle Corporation 25.65-b01
+17:22:06.459 INFO - OS: Mac OS X 10.10.5 x86_64
+17:22:06.467 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:22:06.527 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:22:06.528 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:22:06.529 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:22:06.529 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:22:06.649 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:22:06.649 INFO - Selenium Server is up and running
+17:22:11.623 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2f2e95f3, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:22:11.623 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@ab6d69c, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:22:11.634 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@ab6d69c, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:22:11.634 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2f2e95f3, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 44059
+Only local connections are allowed.
+17:22:16.074 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@ab6d69c, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:22:17.633 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2f2e95f3, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:22:18.607 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:22:18.607 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:22:18.684 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:22:18.947 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:22:20.121 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:22:20.121 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:22:20.153 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:22:20.159 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:22:23.184 INFO - Executing: [find element: By.cssSelector: input[type='checkbox']:first])
+17:22:23.184 INFO - Executing: [find element: By.cssSelector: input[type='checkbox']:first])
+17:22:24.853 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+Command duration or timeout: 184 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2738c241-aecb-244a-a811-c4dc432b874b
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.InvalidSelectorException: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous2178760145273357387webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10633)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous2178760145273357387webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10664)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous2178760145273357387webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous2178760145273357387webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous2178760145273357387webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous2178760145273357387webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+17:22:24.856 WARN - Exception: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+17:22:24.881 INFO - Executing: [delete session: 273cc1cb-7bd6-4d6e-a311-dd964477faa8])
+17:22:24.882 INFO - Executing: [delete session: c2f6998d-675c-46ff-a987-3db1d0e69dc9])
+17:22:25.165 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/.org.chromium.Chromium.Z1lfAO}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 788e07aed3f474b986c9b72a45e9bf19
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17:22:25.171 WARN - Exception: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 19 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/.org.chromium.Chromium.Z1lfAO}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 788e07aed3f474b986c9b72a45e9bf19
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+17:22:25.325 INFO - Done: [delete session: c2f6998d-675c-46ff-a987-3db1d0e69dc9]
+17:22:25.823 INFO - Done: [delete session: 273cc1cb-7bd6-4d6e-a311-dd964477faa8]
+17:23:09.318 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:23:09.351 INFO - Java: Oracle Corporation 25.65-b01
+17:23:09.351 INFO - OS: Mac OS X 10.10.5 x86_64
+17:23:09.359 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:23:09.415 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:23:09.416 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:23:09.416 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:23:09.416 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:23:09.516 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:23:09.516 INFO - Selenium Server is up and running
+17:23:13.746 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@4c579000, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:23:13.746 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@22cd754, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:23:13.757 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@22cd754, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:23:13.757 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@4c579000, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 29128
+Only local connections are allowed.
+17:23:16.667 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@22cd754, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:23:17.733 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@4c579000, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:23:17.796 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:23:17.796 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:23:17.865 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:23:18.121 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:23:19.309 INFO - Executing: [find elements: By.cssSelector: form])
+17:23:19.309 INFO - Executing: [find elements: By.cssSelector: form])
+17:23:19.345 INFO - Done: [find elements: By.cssSelector: form]
+17:23:19.346 INFO - Done: [find elements: By.cssSelector: form]
+17:23:22.373 INFO - Executing: [find element: By.cssSelector: input[type='checkbox']:first])
+17:23:22.373 INFO - Executing: [find element: By.cssSelector: input[type='checkbox']:first])
+17:23:22.983 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/.org.chromium.Chromium.ZN08lM}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c60582d3defb51ea5a4a0bd5d9075b15
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17:23:22.983 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+Command duration or timeout: 9 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff26d843-8c3e-1246-91cd-063d1e046791
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:482)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy2.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:187)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.InvalidSelectorException: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous6209574313770985938webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10633)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous6209574313770985938webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10664)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous6209574313770985938webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous6209574313770985938webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous6209574313770985938webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous6209574313770985938webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+17:23:22.986 WARN - Exception: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/.org.chromium.Chromium.ZN08lM}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c60582d3defb51ea5a4a0bd5d9075b15
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+17:23:22.986 WARN - Exception: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+17:23:23.040 INFO - Executing: [delete session: 16e9ac95-a6af-4dd7-a7b9-006943159105])
+17:23:23.040 INFO - Executing: [delete session: ba8196ac-3f91-4ccb-8fd5-a7f44ec0f927])
+17:23:23.312 INFO - Done: [delete session: 16e9ac95-a6af-4dd7-a7b9-006943159105]
+17:23:24.530 INFO - Done: [delete session: ba8196ac-3f91-4ccb-8fd5-a7f44ec0f927]
+17:26:51.658 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:26:51.691 INFO - Java: Oracle Corporation 25.65-b01
+17:26:51.691 INFO - OS: Mac OS X 10.10.5 x86_64
+17:26:51.699 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:26:51.756 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:26:51.756 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:26:51.756 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:26:51.756 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:26:51.817 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:26:51.817 INFO - Selenium Server is up and running
+17:26:52.766 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@731be77d, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:26:52.766 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@7509fa83, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:26:52.777 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@731be77d, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:26:52.777 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@7509fa83, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 12894
+Only local connections are allowed.
+17:26:55.010 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@7509fa83, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:26:56.727 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@731be77d, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:26:56.787 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:26:56.787 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:26:56.802 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:26:56.802 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:26:56.860 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:26:56.916 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:26:57.114 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:26:57.134 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:26:57.146 INFO - Executing: [find elements: By.cssSelector: input[type='checkbox']:first])
+17:26:57.146 INFO - Executing: [find elements: By.cssSelector: input[type='checkbox']:first])
+17:26:57.752 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/.org.chromium.Chromium.8YK64B}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28c8f9c8b218ca6fa57700d022462f99
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:378)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:486)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy1.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:176)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:50)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17:26:57.752 WARN - Exception thrown
+org.openqa.selenium.InvalidSelectorException: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+Command duration or timeout: 8 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=35.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: af37c470-4375-0845-97d2-6b4e4d87f1a9
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:378)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:486)
+	at org.openqa.selenium.By$ByCssSelector.findElements(By.java:441)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:102)
+	at com.sun.proxy.$Proxy2.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:176)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:50)
+	at org.openqa.selenium.remote.server.handler.FindElements.call(FindElements.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.InvalidSelectorException: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.annotateInvalidSelectorError_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous5417648405155099455webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10633)
+	at <anonymous class>.FirefoxDriver.prototype.findElementsInternal_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous5417648405155099455webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10691)
+	at <anonymous class>.FirefoxDriver.prototype.findElements(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous5417648405155099455webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10695)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous5417648405155099455webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous5417648405155099455webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/anonymous5417648405155099455webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)
+17:26:57.754 WARN - Exception: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=47.0.2526.106)
+  (Driver info: chromedriver=2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281),platform=Mac OS X 10.10.5 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/var/folders/7j/6mq3xtbn439cgrg5lg7bytm00000gn/T/.org.chromium.Chromium.8YK64B}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=47.0.2526.106, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 28c8f9c8b218ca6fa57700d022462f99
+*** Element info: {Using=css selector, value=input[type='checkbox']:first}
+17:26:57.755 WARN - Exception: The given selector input[type='checkbox']:first is either invalid or does not result in a WebElement. The following error occurred:
+InvalidSelectorError: An invalid or illegal selector was specified
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Josephs-iMac', ip: '192.168.0.5', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_65'
+Driver info: driver.version: unknown
+17:26:57.825 INFO - Executing: [delete session: a72ae0c5-addf-4bde-a144-5902c0ba9320])
+17:26:57.826 INFO - Executing: [delete session: 491ed468-19d5-49e0-a88b-27bdd52aa17d])
+17:26:57.962 INFO - Done: [delete session: 491ed468-19d5-49e0-a88b-27bdd52aa17d]
+17:26:58.498 INFO - Done: [delete session: a72ae0c5-addf-4bde-a144-5902c0ba9320]
+17:28:10.712 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:28:10.743 INFO - Java: Oracle Corporation 25.65-b01
+17:28:10.743 INFO - OS: Mac OS X 10.10.5 x86_64
+17:28:10.752 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:28:10.806 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:28:10.806 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:28:10.806 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:28:10.806 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:28:10.867 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:28:10.867 INFO - Selenium Server is up and running
+17:28:11.814 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@68369fe1, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:28:11.814 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@6a38e64e, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:28:11.824 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@68369fe1, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:28:11.824 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@6a38e64e, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 12081
+Only local connections are allowed.
+17:28:13.377 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@68369fe1, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:28:13.695 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@6a38e64e, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:28:13.760 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:28:13.760 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:28:13.777 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:28:13.777 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:28:13.841 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:28:13.896 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:28:14.116 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:28:14.139 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:28:14.151 INFO - Executing: [find elements: By.cssSelector: input[name='Arsenal TV']])
+17:28:14.151 INFO - Executing: [find elements: By.cssSelector: input[name='Arsenal TV']])
+17:28:14.158 INFO - Done: [find elements: By.cssSelector: input[name='Arsenal TV']]
+17:28:14.168 INFO - Done: [find elements: By.cssSelector: input[name='Arsenal TV']]
+17:28:14.677 INFO - Executing: [find element: By.cssSelector: input[name='Arsenal TV']])
+17:28:14.677 INFO - Executing: [find element: By.cssSelector: input[name='Arsenal TV']])
+17:28:14.684 INFO - Done: [find element: By.cssSelector: input[name='Arsenal TV']]
+17:28:14.689 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (0a02367b-ae04-d747-8c37-65431c670130)] -> css selector: input[name='Arsenal TV']]])
+17:28:14.695 INFO - Done: [find element: By.cssSelector: input[name='Arsenal TV']]
+17:28:14.699 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (445161b7376f0342b0d3a4c32c59a384)] -> css selector: input[name='Arsenal TV']]])
+17:28:14.801 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (445161b7376f0342b0d3a4c32c59a384)] -> css selector: input[name='Arsenal TV']]]
+17:28:14.963 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (0a02367b-ae04-d747-8c37-65431c670130)] -> css selector: input[name='Arsenal TV']]]
+17:28:15.485 INFO - Executing: [delete session: 7cb09ead-bbd7-45be-a43e-19f0203a4be7])
+17:28:15.485 INFO - Executing: [delete session: 55f19d15-a035-427c-94f2-c9b4b4393db4])
+17:28:15.726 INFO - Done: [delete session: 7cb09ead-bbd7-45be-a43e-19f0203a4be7]
+17:28:16.328 INFO - Done: [delete session: 55f19d15-a035-427c-94f2-c9b4b4393db4]
+17:28:52.547 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:28:52.579 INFO - Java: Oracle Corporation 25.65-b01
+17:28:52.579 INFO - OS: Mac OS X 10.10.5 x86_64
+17:28:52.587 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:28:52.644 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:28:52.644 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:28:52.644 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:28:52.644 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:28:52.707 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:28:52.707 INFO - Selenium Server is up and running
+17:28:53.579 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@ab6d69c, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:28:53.579 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2f2e95f3, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:28:53.590 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2f2e95f3, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:28:53.590 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@ab6d69c, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 4717
+Only local connections are allowed.
+17:28:56.806 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@ab6d69c, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:28:58.686 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2f2e95f3, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:28:58.747 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:28:58.747 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:28:58.768 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:28:58.771 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:28:58.836 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:28:58.891 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:28:59.108 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:28:59.130 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:28:59.142 INFO - Executing: [find elements: By.cssSelector: input[name='Arsenal TV']])
+17:28:59.142 INFO - Executing: [find elements: By.cssSelector: input[name='Arsenal TV']])
+17:28:59.149 INFO - Done: [find elements: By.cssSelector: input[name='Arsenal TV']]
+17:28:59.157 INFO - Done: [find elements: By.cssSelector: input[name='Arsenal TV']]
+17:28:59.667 INFO - Executing: [find element: By.name: Arsenal TV])
+17:28:59.667 INFO - Executing: [find element: By.name: Arsenal TV])
+17:28:59.674 INFO - Done: [find element: By.name: Arsenal TV]
+17:28:59.679 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (1b0a406a-5c63-6a44-8dae-1f308d0601ba)] -> css selector: input[name='Arsenal TV']]])
+17:28:59.683 INFO - Done: [find element: By.name: Arsenal TV]
+17:28:59.687 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (3375fd9e190516dd8958de8457448dc3)] -> css selector: input[name='Arsenal TV']]])
+17:28:59.718 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (3375fd9e190516dd8958de8457448dc3)] -> css selector: input[name='Arsenal TV']]]
+17:28:59.744 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (1b0a406a-5c63-6a44-8dae-1f308d0601ba)] -> css selector: input[name='Arsenal TV']]]
+17:29:00.258 INFO - Executing: [delete session: 6b6045e7-2795-4935-96a0-fb3ca31a7512])
+17:29:00.258 INFO - Executing: [delete session: a9367f05-ff0d-4537-be9a-049d91f0281e])
+17:29:00.411 INFO - Done: [delete session: a9367f05-ff0d-4537-be9a-049d91f0281e]
+17:29:00.972 INFO - Done: [delete session: 6b6045e7-2795-4935-96a0-fb3ca31a7512]
+17:29:18.822 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:29:18.855 INFO - Java: Oracle Corporation 25.65-b01
+17:29:18.855 INFO - OS: Mac OS X 10.10.5 x86_64
+17:29:18.863 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:29:18.920 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:29:18.921 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:29:18.921 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:29:18.921 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:29:18.986 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:29:18.986 INFO - Selenium Server is up and running
+17:29:19.934 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2a6c951d, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:29:19.934 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@7b2096b, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:29:19.943 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@7b2096b, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:29:19.943 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2a6c951d, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 27156
+Only local connections are allowed.
+17:29:21.556 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2a6c951d, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:29:22.108 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@7b2096b, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:29:22.169 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:29:22.170 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:29:22.187 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:29:22.188 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:29:22.265 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:29:22.313 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:29:22.522 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:29:22.545 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:29:22.558 INFO - Executing: [find elements: By.cssSelector: input[name='Arsenal TV']])
+17:29:22.558 INFO - Executing: [find elements: By.cssSelector: input[name='Arsenal TV']])
+17:29:22.566 INFO - Done: [find elements: By.cssSelector: input[name='Arsenal TV']]
+17:29:22.573 INFO - Done: [find elements: By.cssSelector: input[name='Arsenal TV']]
+17:29:24.082 INFO - Executing: [find element: By.name: Arsenal TV])
+17:29:24.083 INFO - Executing: [find element: By.name: Arsenal TV])
+17:29:24.089 INFO - Done: [find element: By.name: Arsenal TV]
+17:29:24.094 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (27472fcd-2f2c-b649-a8b9-65883285ae10)] -> css selector: input[name='Arsenal TV']]])
+17:29:24.098 INFO - Done: [find element: By.name: Arsenal TV]
+17:29:24.102 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (92f190a33b55139d73a5d7ac12fe5527)] -> css selector: input[name='Arsenal TV']]])
+17:29:24.133 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (92f190a33b55139d73a5d7ac12fe5527)] -> css selector: input[name='Arsenal TV']]]
+17:29:24.192 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (27472fcd-2f2c-b649-a8b9-65883285ae10)] -> css selector: input[name='Arsenal TV']]]
+17:29:24.710 INFO - Executing: [delete session: 523d2f51-2765-4d70-9b0a-ff17a8af38d7])
+17:29:24.710 INFO - Executing: [delete session: c49437f6-a8cf-4163-82d8-fe437b9c79ed])
+17:29:24.778 INFO - Done: [delete session: c49437f6-a8cf-4163-82d8-fe437b9c79ed]
+17:29:25.276 INFO - Done: [delete session: 523d2f51-2765-4d70-9b0a-ff17a8af38d7]
+17:34:16.462 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:34:16.494 INFO - Java: Oracle Corporation 25.65-b01
+17:34:16.494 INFO - OS: Mac OS X 10.10.5 x86_64
+17:34:16.502 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:34:16.558 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:34:16.558 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:34:16.558 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:34:16.558 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:34:16.618 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:34:16.618 INFO - Selenium Server is up and running
+17:34:17.568 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@19b63654, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:34:17.568 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@3fd290ac, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:34:17.577 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@19b63654, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:34:17.577 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@3fd290ac, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 11798
+Only local connections are allowed.
+17:34:19.123 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@19b63654, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:34:20.391 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@3fd290ac, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:34:20.453 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:34:20.453 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:34:20.480 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:34:20.480 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:34:20.525 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:34:20.575 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:34:20.817 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:34:20.841 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:34:20.854 INFO - Executing: [find elements: By.cssSelector: input])
+17:34:20.854 INFO - Executing: [find elements: By.cssSelector: input])
+17:34:20.864 INFO - Done: [find elements: By.cssSelector: input]
+17:34:20.871 INFO - Done: [find elements: By.cssSelector: input]
+17:34:22.381 INFO - Executing: [find element: By.cssSelector: input])
+17:34:22.381 INFO - Executing: [find element: By.cssSelector: input])
+17:34:22.389 INFO - Done: [find element: By.cssSelector: input]
+17:34:22.395 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (34632a1e-a280-c640-b83c-0f866ce1f385)] -> css selector: input]])
+17:34:22.397 INFO - Done: [find element: By.cssSelector: input]
+17:34:22.401 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (4ff2504000090b7192c0a53237352cef)] -> css selector: input]])
+17:34:22.435 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (4ff2504000090b7192c0a53237352cef)] -> css selector: input]]
+17:34:22.457 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (34632a1e-a280-c640-b83c-0f866ce1f385)] -> css selector: input]]
+17:34:22.971 INFO - Executing: [delete session: 2a99e3da-2ca2-491b-a3b1-5ef902ce36cf])
+17:34:22.971 INFO - Executing: [delete session: 415c5756-ae50-4e83-a542-26c6cc6654ca])
+17:34:23.288 INFO - Done: [delete session: 2a99e3da-2ca2-491b-a3b1-5ef902ce36cf]
+17:34:24.786 INFO - Done: [delete session: 415c5756-ae50-4e83-a542-26c6cc6654ca]
+17:34:40.318 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:34:40.349 INFO - Java: Oracle Corporation 25.65-b01
+17:34:40.349 INFO - OS: Mac OS X 10.10.5 x86_64
+17:34:40.357 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:34:40.410 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:34:40.411 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:34:40.411 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:34:40.411 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:34:40.467 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:34:40.468 INFO - Selenium Server is up and running
+17:34:41.404 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@d566979, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:34:41.404 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@357ba5e4, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:34:41.413 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@357ba5e4, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:34:41.413 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@d566979, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 29423
+Only local connections are allowed.
+17:34:43.191 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@357ba5e4, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:34:44.888 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@d566979, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:34:44.950 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:34:44.950 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:34:44.967 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:34:44.968 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:34:45.034 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:34:45.080 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:34:45.276 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:34:45.300 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:34:45.313 INFO - Executing: [find elements: By.cssSelector: input])
+17:34:45.313 INFO - Executing: [find elements: By.cssSelector: input])
+17:34:45.320 INFO - Done: [find elements: By.cssSelector: input]
+17:34:45.328 INFO - Done: [find elements: By.cssSelector: input]
+17:34:46.841 INFO - Executing: [find element: By.cssSelector: input])
+17:34:46.841 INFO - Executing: [find element: By.cssSelector: input])
+17:34:46.848 INFO - Done: [find element: By.cssSelector: input]
+17:34:46.854 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (a1042c08-4e0a-b34e-a582-9de042b9d632)] -> css selector: input]])
+17:34:46.857 INFO - Done: [find element: By.cssSelector: input]
+17:34:46.862 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (a6a17197985ee64541de44427d77e089)] -> css selector: input]])
+17:34:46.893 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (a6a17197985ee64541de44427d77e089)] -> css selector: input]]
+17:34:46.926 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (a1042c08-4e0a-b34e-a582-9de042b9d632)] -> css selector: input]]
+17:34:47.443 INFO - Executing: [delete session: 46da133f-6105-4e26-846b-8969786d1050])
+17:34:47.443 INFO - Executing: [delete session: 47107b03-d947-46ef-a24a-7221cb02d827])
+17:34:47.539 INFO - Done: [delete session: 46da133f-6105-4e26-846b-8969786d1050]
+17:34:48.056 INFO - Done: [delete session: 47107b03-d947-46ef-a24a-7221cb02d827]
+17:37:29.528 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:37:29.561 INFO - Java: Oracle Corporation 25.65-b01
+17:37:29.562 INFO - OS: Mac OS X 10.10.5 x86_64
+17:37:29.570 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:37:29.626 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:37:29.626 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:37:29.627 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:37:29.627 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:37:29.690 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:37:29.690 INFO - Selenium Server is up and running
+17:37:30.693 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@5f9182b8, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:37:30.701 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2759c9a2, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:37:30.711 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@5f9182b8, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:37:30.712 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2759c9a2, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 21754
+Only local connections are allowed.
+17:37:34.317 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@2759c9a2, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:37:36.051 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@5f9182b8, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:37:36.112 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:37:36.113 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:37:36.134 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:37:36.134 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:37:36.173 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:37:36.247 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:37:36.443 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:37:36.465 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:37:36.477 INFO - Executing: [find elements: By.cssSelector: input])
+17:37:36.477 INFO - Executing: [find elements: By.cssSelector: input])
+17:37:36.485 INFO - Done: [find elements: By.cssSelector: input]
+17:37:36.493 INFO - Done: [find elements: By.cssSelector: input]
+17:37:37.005 INFO - Executing: [find element: By.cssSelector: input])
+17:37:37.005 INFO - Executing: [find element: By.cssSelector: input])
+17:37:37.012 INFO - Done: [find element: By.cssSelector: input]
+17:37:37.016 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]])
+17:37:37.020 INFO - Done: [find element: By.cssSelector: input]
+17:37:37.024 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]])
+17:37:37.055 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]]
+17:37:37.079 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]]
+17:37:37.591 INFO - Executing: [find elements: By.cssSelector: input])
+17:37:37.591 INFO - Executing: [find elements: By.cssSelector: input])
+17:37:37.599 INFO - Done: [find elements: By.cssSelector: input]
+17:37:37.605 INFO - Done: [find elements: By.cssSelector: input]
+17:37:37.618 INFO - Executing: [is selected: 1 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]])
+17:37:37.618 INFO - Executing: [is selected: 2 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]])
+17:37:37.619 INFO - Executing: [is selected: 4 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]])
+17:37:37.619 INFO - Executing: [is selected: 5 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]])
+17:37:37.619 INFO - Executing: [is selected: 3 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]])
+17:37:37.624 INFO - Done: [is selected: 1 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]]
+17:37:37.626 INFO - Executing: [is selected: 1 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]])
+17:37:37.628 INFO - Executing: [is selected: 2 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]])
+17:37:37.628 INFO - Executing: [is selected: 3 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]])
+17:37:37.629 INFO - Executing: [is selected: 4 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]])
+17:37:37.630 INFO - Executing: [is selected: 5 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]])
+17:37:37.646 INFO - Done: [is selected: 2 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]]
+17:37:37.661 INFO - Done: [is selected: 4 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]]
+17:37:37.666 INFO - Done: [is selected: 1 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]]
+17:37:37.668 INFO - Done: [is selected: 5 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]]
+17:37:37.673 INFO - Done: [is selected: 3 [[FirefoxDriver: firefox on MAC (4781477e-e264-0345-b547-5308f7c08fa2)] -> css selector: input]]
+17:37:37.674 INFO - Done: [is selected: 3 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]]
+17:37:37.682 INFO - Done: [is selected: 4 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]]
+17:37:37.689 INFO - Done: [is selected: 2 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]]
+17:37:37.695 INFO - Done: [is selected: 5 [[ChromeDriver: chrome on MAC (dda44e7fdf092752335ae895bfd87cbb)] -> css selector: input]]
+17:37:37.704 INFO - Executing: [delete session: 95b87dc6-8fce-4c1d-91f4-587e304ea351])
+17:37:37.704 INFO - Executing: [delete session: 3243fc5a-b46c-472a-b24b-5f5a05a8e87b])
+17:37:37.782 INFO - Done: [delete session: 3243fc5a-b46c-472a-b24b-5f5a05a8e87b]
+17:37:38.315 INFO - Done: [delete session: 95b87dc6-8fce-4c1d-91f4-587e304ea351]
+17:39:20.308 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:39:20.340 INFO - Java: Oracle Corporation 25.65-b01
+17:39:20.340 INFO - OS: Mac OS X 10.10.5 x86_64
+17:39:20.348 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:39:20.404 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:39:20.405 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:39:20.405 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:39:20.405 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:39:20.464 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:39:20.464 INFO - Selenium Server is up and running
+17:39:21.409 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@22050ef, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:39:21.409 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@515112e4, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:39:21.418 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@22050ef, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:39:21.418 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@515112e4, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 33860
+Only local connections are allowed.
+17:39:23.867 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@515112e4, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:39:27.288 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@22050ef, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:39:27.352 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:39:27.352 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:39:27.371 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:39:27.371 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:39:27.423 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:39:27.471 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:39:27.680 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:39:27.705 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:39:27.718 INFO - Executing: [find elements: By.cssSelector: input])
+17:39:27.718 INFO - Executing: [find elements: By.cssSelector: input])
+17:39:27.727 INFO - Done: [find elements: By.cssSelector: input]
+17:39:27.735 INFO - Done: [find elements: By.cssSelector: input]
+17:39:28.245 INFO - Executing: [find element: By.cssSelector: input])
+17:39:28.245 INFO - Executing: [find element: By.cssSelector: input])
+17:39:28.302 INFO - Done: [find element: By.cssSelector: input]
+17:39:28.307 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]])
+17:39:28.337 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]]
+17:39:28.431 INFO - Done: [find element: By.cssSelector: input]
+17:39:28.436 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]])
+17:39:28.561 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]]
+17:39:29.076 INFO - Executing: [find elements: By.cssSelector: input])
+17:39:29.076 INFO - Executing: [find elements: By.cssSelector: input])
+17:39:29.086 INFO - Done: [find elements: By.cssSelector: input]
+17:39:29.095 INFO - Done: [find elements: By.cssSelector: input]
+17:39:29.105 INFO - Executing: [is selected: 1 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]])
+17:39:29.105 INFO - Executing: [is selected: 4 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]])
+17:39:29.105 INFO - Executing: [is selected: 5 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]])
+17:39:29.105 INFO - Executing: [is selected: 2 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]])
+17:39:29.105 INFO - Executing: [is selected: 3 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]])
+17:39:29.110 INFO - Executing: [is selected: 1 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]])
+17:39:29.111 INFO - Executing: [is selected: 2 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]])
+17:39:29.115 INFO - Executing: [is selected: 3 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]])
+17:39:29.116 INFO - Executing: [is selected: 4 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]])
+17:39:29.117 INFO - Done: [is selected: 1 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]]
+17:39:29.120 INFO - Executing: [is selected: 5 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]])
+17:39:29.122 INFO - Done: [is selected: 4 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]]
+17:39:29.123 INFO - Done: [is selected: 1 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]]
+17:39:29.127 INFO - Done: [is selected: 2 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]]
+17:39:29.131 INFO - Done: [is selected: 2 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]]
+17:39:29.135 INFO - Done: [is selected: 3 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]]
+17:39:29.139 INFO - Done: [is selected: 3 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]]
+17:39:29.141 INFO - Done: [is selected: 5 [[FirefoxDriver: firefox on MAC (ad927c77-631b-e247-8f94-2f50b902f372)] -> css selector: input]]
+17:39:29.149 INFO - Done: [is selected: 4 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]]
+17:39:29.156 INFO - Done: [is selected: 5 [[ChromeDriver: chrome on MAC (a365f651b8e438dcdeabc8b96805c915)] -> css selector: input]]
+17:39:29.169 INFO - Executing: [find elements: By.cssSelector: .selected-products])
+17:39:29.169 INFO - Executing: [find elements: By.cssSelector: .selected-products])
+17:39:29.176 INFO - Done: [find elements: By.cssSelector: .selected-products]
+17:39:29.182 INFO - Done: [find elements: By.cssSelector: .selected-products]
+17:39:29.691 INFO - Executing: [find elements: By.cssSelector: .selected-products li])
+17:39:29.691 INFO - Executing: [find elements: By.cssSelector: .selected-products li])
+17:39:29.700 INFO - Done: [find elements: By.cssSelector: .selected-products li]
+17:39:29.704 INFO - Done: [find elements: By.cssSelector: .selected-products li]
+17:39:30.219 INFO - Executing: [delete session: c89a1026-0e0a-4cc7-90a1-374c1b12c867])
+17:39:30.219 INFO - Executing: [delete session: 1863fcea-dd2a-44cf-b865-8671b6f78e8f])
+17:39:30.377 INFO - Done: [delete session: 1863fcea-dd2a-44cf-b865-8671b6f78e8f]
+17:39:30.939 INFO - Done: [delete session: c89a1026-0e0a-4cc7-90a1-374c1b12c867]
+17:40:13.265 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:40:13.302 INFO - Java: Oracle Corporation 25.65-b01
+17:40:13.302 INFO - OS: Mac OS X 10.10.5 x86_64
+17:40:13.310 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:40:13.365 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:40:13.366 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:40:13.366 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:40:13.366 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:40:13.425 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:40:13.425 INFO - Selenium Server is up and running
+17:40:14.341 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@26ad7986, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:40:14.341 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@4c6a3737, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:40:14.351 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@4c6a3737, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:40:14.351 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@26ad7986, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 26388
+Only local connections are allowed.
+17:40:16.829 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@4c6a3737, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:40:18.756 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@26ad7986, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:40:18.812 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:40:18.812 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:40:18.830 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:40:18.833 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:40:18.884 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:40:18.936 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:40:19.145 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:40:19.170 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:40:19.183 INFO - Executing: [find elements: By.cssSelector: input])
+17:40:19.183 INFO - Executing: [find elements: By.cssSelector: input])
+17:40:19.191 INFO - Done: [find elements: By.cssSelector: input]
+17:40:19.199 INFO - Done: [find elements: By.cssSelector: input]
+17:40:19.708 INFO - Executing: [find element: By.cssSelector: input])
+17:40:19.708 INFO - Executing: [find element: By.cssSelector: input])
+17:40:19.715 INFO - Done: [find element: By.cssSelector: input]
+17:40:19.720 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]])
+17:40:19.724 INFO - Done: [find element: By.cssSelector: input]
+17:40:19.728 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]])
+17:40:19.758 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]]
+17:40:19.808 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]]
+17:40:20.324 INFO - Executing: [find elements: By.cssSelector: input])
+17:40:20.324 INFO - Executing: [find elements: By.cssSelector: input])
+17:40:20.331 INFO - Done: [find elements: By.cssSelector: input]
+17:40:20.338 INFO - Done: [find elements: By.cssSelector: input]
+17:40:20.348 INFO - Executing: [is selected: 3 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]])
+17:40:20.348 INFO - Executing: [is selected: 4 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]])
+17:40:20.348 INFO - Executing: [is selected: 5 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]])
+17:40:20.348 INFO - Executing: [is selected: 2 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]])
+17:40:20.348 INFO - Executing: [is selected: 1 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]])
+17:40:20.354 INFO - Executing: [is selected: 1 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]])
+17:40:20.356 INFO - Done: [is selected: 4 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]]
+17:40:20.359 INFO - Executing: [is selected: 3 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]])
+17:40:20.359 INFO - Executing: [is selected: 2 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]])
+17:40:20.360 INFO - Executing: [is selected: 4 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]])
+17:40:20.361 INFO - Executing: [is selected: 5 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]])
+17:40:20.363 INFO - Done: [is selected: 5 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]]
+17:40:20.364 INFO - Done: [is selected: 1 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]]
+17:40:20.369 INFO - Done: [is selected: 2 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]]
+17:40:20.371 INFO - Done: [is selected: 3 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]]
+17:40:20.375 INFO - Done: [is selected: 3 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]]
+17:40:20.379 INFO - Done: [is selected: 2 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]]
+17:40:20.381 INFO - Done: [is selected: 1 [[FirefoxDriver: firefox on MAC (356c12f1-29c3-cb43-ad56-46e3ac31556e)] -> css selector: input]]
+17:40:20.387 INFO - Done: [is selected: 4 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]]
+17:40:20.393 INFO - Done: [is selected: 5 [[ChromeDriver: chrome on MAC (2c3cc3757952d6bb7a422a228d15972c)] -> css selector: input]]
+17:40:20.404 INFO - Executing: [find elements: By.cssSelector: .selected-products li])
+17:40:20.404 INFO - Executing: [find elements: By.cssSelector: .selected-products li])
+17:40:20.410 INFO - Done: [find elements: By.cssSelector: .selected-products li]
+17:40:20.420 INFO - Done: [find elements: By.cssSelector: .selected-products li]
+17:40:21.031 INFO - Executing: [find elements: By.cssSelector: .selected-products li])
+17:40:21.031 INFO - Executing: [find elements: By.cssSelector: .selected-products li])
+17:40:21.040 INFO - Done: [find elements: By.cssSelector: .selected-products li]
+17:40:21.048 INFO - Done: [find elements: By.cssSelector: .selected-products li]
+17:40:21.663 INFO - Executing: [delete session: c96ba1af-f944-42b5-848a-a46465d54b31])
+17:40:21.664 INFO - Executing: [delete session: 851c0ab3-0fd8-48b0-b898-cf797e976449])
+17:40:22.070 INFO - Done: [delete session: c96ba1af-f944-42b5-848a-a46465d54b31]
+17:40:22.837 INFO - Done: [delete session: 851c0ab3-0fd8-48b0-b898-cf797e976449]
+17:41:17.268 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/josephmorrison/projects/node-site/node_modules/selenium-standalone/.selenium/chromedriver/2.18-x64-chromedriver
+17:41:17.302 INFO - Java: Oracle Corporation 25.65-b01
+17:41:17.302 INFO - OS: Mac OS X 10.10.5 x86_64
+17:41:17.310 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:41:17.366 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:41:17.367 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:41:17.367 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:41:17.367 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:41:17.430 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:41:17.430 INFO - Selenium Server is up and running
+17:41:18.349 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@66f49dff, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:41:18.349 INFO - Executing: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@20a9a4bf, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]])
+17:41:18.358 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@20a9a4bf, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+17:41:18.358 INFO - Creating a new session for Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@66f49dff, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]
+Starting ChromeDriver 2.18.343837 (52eb4041461e46a6b73308ebb19e85787ced4281) on port 15139
+Only local connections are allowed.
+17:41:20.657 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@20a9a4bf, browserName=chrome, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:41:22.331 INFO - Done: [new session: Capabilities [{rotatable=true, locationContextEnabled=true, loggingPrefs=org.openqa.selenium.logging.LoggingPreferences@66f49dff, browserName=firefox, javascriptEnabled=true, handlesAlerts=true, version=, platform=ANY, requestOrigins={name=webdriverio, version=3.3.0, url=http://webdriver.io}}]]
+17:41:22.392 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:41:22.392 INFO - Executing: [get: http://localhost:3000/?customerID=1])
+17:41:22.407 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:41:22.407 INFO - Executing: [find elements: By.cssSelector: .product-selection])
+17:41:22.483 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:41:22.545 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:41:22.735 INFO - Done: [get: http://localhost:3000/?customerID=1]
+17:41:22.757 INFO - Done: [find elements: By.cssSelector: .product-selection]
+17:41:22.769 INFO - Executing: [find elements: By.cssSelector: input])
+17:41:22.769 INFO - Executing: [find elements: By.cssSelector: input])
+17:41:22.777 INFO - Done: [find elements: By.cssSelector: input]
+17:41:22.786 INFO - Done: [find elements: By.cssSelector: input]
+17:41:23.295 INFO - Executing: [find element: By.cssSelector: input])
+17:41:23.295 INFO - Executing: [find element: By.cssSelector: input])
+17:41:23.309 INFO - Done: [find element: By.cssSelector: input]
+17:41:23.311 INFO - Done: [find element: By.cssSelector: input]
+17:41:23.316 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]])
+17:41:23.317 INFO - Executing: [click: 1 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]])
+17:41:23.349 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]]
+17:41:23.520 INFO - Done: [click: 1 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]]
+17:41:24.035 INFO - Executing: [find elements: By.cssSelector: input])
+17:41:24.035 INFO - Executing: [find elements: By.cssSelector: input])
+17:41:24.043 INFO - Done: [find elements: By.cssSelector: input]
+17:41:24.049 INFO - Done: [find elements: By.cssSelector: input]
+17:41:24.060 INFO - Executing: [is selected: 3 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]])
+17:41:24.060 INFO - Executing: [is selected: 4 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]])
+17:41:24.060 INFO - Executing: [is selected: 5 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]])
+17:41:24.060 INFO - Executing: [is selected: 2 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]])
+17:41:24.061 INFO - Executing: [is selected: 1 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]])
+17:41:24.064 INFO - Executing: [is selected: 1 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]])
+17:41:24.064 INFO - Executing: [is selected: 2 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]])
+17:41:24.065 INFO - Executing: [is selected: 5 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]])
+17:41:24.065 INFO - Executing: [is selected: 3 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]])
+17:41:24.066 INFO - Executing: [is selected: 4 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]])
+17:41:24.067 INFO - Done: [is selected: 3 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]]
+17:41:24.074 INFO - Done: [is selected: 1 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]]
+17:41:24.075 INFO - Done: [is selected: 5 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]]
+17:41:24.079 INFO - Done: [is selected: 2 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]]
+17:41:24.082 INFO - Done: [is selected: 2 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]]
+17:41:24.088 INFO - Done: [is selected: 4 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]]
+17:41:24.092 INFO - Done: [is selected: 5 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]]
+17:41:24.098 INFO - Done: [is selected: 1 [[FirefoxDriver: firefox on MAC (19096137-c59a-a248-a8fd-2892236c0a0a)] -> css selector: input]]
+17:41:24.101 INFO - Done: [is selected: 3 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]]
+17:41:24.108 INFO - Done: [is selected: 4 [[ChromeDriver: chrome on MAC (a7929de9b023860ad00234061bbf6a2e)] -> css selector: input]]
+17:41:24.722 INFO - Executing: [find elements: By.cssSelector: .selected-products li])
+17:41:24.722 INFO - Executing: [find elements: By.cssSelector: .selected-products li])
+17:41:24.728 INFO - Done: [find elements: By.cssSelector: .selected-products li]
+17:41:24.735 INFO - Done: [find elements: By.cssSelector: .selected-products li]
+17:41:25.344 INFO - Executing: [find elements: By.cssSelector: .selected-products li])
+17:41:25.345 INFO - Executing: [find elements: By.cssSelector: .selected-products li])
+17:41:25.350 INFO - Done: [find elements: By.cssSelector: .selected-products li]
+17:41:25.360 INFO - Done: [find elements: By.cssSelector: .selected-products li]
+17:41:25.978 INFO - Executing: [delete session: f3146537-d351-4f06-a1b5-b0bf26b775b9])
+17:41:25.978 INFO - Executing: [delete session: 31b7d8eb-24de-4c95-851a-41dc9cf387d7])
+17:41:26.122 INFO - Done: [delete session: f3146537-d351-4f06-a1b5-b0bf26b775b9]
+17:41:26.621 INFO - Done: [delete session: 31b7d8eb-24de-4c95-851a-41dc9cf387d7]
